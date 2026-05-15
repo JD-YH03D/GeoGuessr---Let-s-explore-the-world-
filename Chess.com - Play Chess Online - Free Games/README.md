@@ -1,6 +1,7 @@
 <div align="center">
 
-![bintang toba](public/image/hero.png)
+<img src="https://raw.githubusercontent.com/JD-YH03D/release/main/public/image/hero.png" 
+     alt="Bintang Toba Pro Hero Image">
 
 # 🏆 Bintang Toba Pro - Chess.com Assistant
 </div>
