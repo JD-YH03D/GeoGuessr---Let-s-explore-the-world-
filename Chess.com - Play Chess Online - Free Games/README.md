@@ -1,4 +1,9 @@
+<div align="center">
+
+![bintang toba](public/image/hero.png)
+
 # 🏆 Bintang Toba Pro - Chess.com Assistant
+</div>
 
 **Version:** 1.0.0  
 **License:** GPL-3.0-only  
