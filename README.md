@@ -1,3 +1,10 @@
+<div align="center">
+
+![bintang toba](public/image/hero.png)
+
+<h1> Bintang Toba Pro</h1>
+</div>
+
 # Bintang Toba Pro
 
 **Version:** 1.7.1  
