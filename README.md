@@ -34,4 +34,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 - GitHub: [JD-YH03D](https://github.com/JD-YH03D)
-- Greasy Fork: [JD-YH03D Profile](https://greasyfork.org/users/...)
+- Greasy Fork: [JD-YH03D Profile](https://greasyfork.org/id/users/1575724-qwerty-1)
