@@ -297,8 +297,8 @@ See [LICENSE](LICENSE) for more information.
 
 | Channel | Link |
 |---------|------|
-| **GitHub Issues** | [Report Bug / Request Feature](https://github.com/Delta-Polder-Indonesia/Egine-chess-tempermonkey-pro/issues) |
-| **GreasyFork** | [Script Discussion](https://greasyfork.org/scripts/xxxxxx) |
+| **GitHub Issues** | [Report Bug / Request Feature](https://github.com/JD-YH03D/release/issues) |
+| **GreasyFork** | [Script Discussion](https://greasyfork.org/id/users/1575724-qwerty-1) |
 
 ---
 
