@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JD-YH03D | Greasy Fork Scripts Hub</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(90deg, #60a5fa, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-[#0f172a] text-slate-200 min-h-screen">
+
+    <!-- Header -->
+    <header class="border-b border-slate-800 bg-slate-900/50 sticky top-0 z-50 backdrop-blur-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-blue-600 p-2 rounded-lg">
+                    <i class="fas fa-code text-white"></i>
+                </div>
+                <h1 class="text-xl font-bold tracking-tight">JD-YH03D <span class="text-slate-500 font-normal">/ Release</span></h1>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#scripts" class="hover:text-blue-400 transition">Scripts</a>
+                <a href="#contribute" class="hover:text-blue-400 transition">Contribute</a>
+                <a href="https://github.com/JD-YH03D/release" target="_blank" class="hover:text-blue-400 transition">GitHub <i class="fab fa-github ml-1"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+        <!-- Hero Section -->
+        <section class="mb-20 text-center md:text-left flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-2/3">
+                <h2 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+                    Enhance your web <br> with <span class="gradient-text">Pro UserScripts</span>
+                </h2>
+                <p class="text-slate-400 text-lg mb-8 max-w-2xl">
+                    A collection of high-performance UserScripts for browser automation, UI improvements, and workflow optimization. Maintained with ❤️ by JD-YH03D.
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="#scripts" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition flex items-center shadow-lg shadow-blue-900/20">
+                        Browse Scripts <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                    <a href="#contribute" class="bg-slate-800 hover:bg-slate-700 text-white px-8 py-3 rounded-full font-semibold transition border border-slate-700">
+                        How to Contribute
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/3 flex justify-center">
+                <div class="relative w-64 h-64">
+                    <div class="absolute inset-0 bg-blue-500 rounded-full blur-[80px] opacity-20 animate-pulse"></div>
+                    <img src="https://api.dicebear.com/7.x/bottts/svg?seed=JD" alt="Avatar" class="w-full h-full relative z-10 rounded-3xl border-2 border-slate-700 glass">
+                </div>
+            </div>
+        </section>
+
+        <!-- Scripts Section -->
+        <section id="scripts" class="mb-20">
+            <div class="flex items-center justify-between mb-8">
+                <h3 class="text-2xl font-bold flex items-center">
+                    <span class="w-8 h-1 bg-blue-500 mr-3 rounded-full"></span> Featured Scripts
+                </h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Example Script Card 1 -->
+                <div class="glass p-6 rounded-2xl hover:scale-[1.02] transition-transform duration-300">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="bg-blue-500/10 p-3 rounded-xl">
+                            <i class="fas fa-bolt text-blue-400"></i>
+                        </div>
+                        <span class="text-xs font-mono text-slate-500 bg-slate-800 px-2 py-1 rounded">v1.2.0</span>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Auto-Bypass Tool</h4>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        Automatically skips timers and confirmation pages on popular link shorteners.
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs text-slate-500">Last updated: 2 days ago</span>
+                        <a href="#" class="text-blue-400 hover:text-blue-300 text-sm font-semibold flex items-center">
+                            Install <i class="fas fa-external-link-alt ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Example Script Card 2 -->
+                <div class="glass p-6 rounded-2xl hover:scale-[1.02] transition-transform duration-300 border-l-2 border-l-purple-500">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="bg-purple-500/10 p-3 rounded-xl">
+                            <i class="fas fa-eye text-purple-400"></i>
+                        </div>
+                        <span class="text-xs font-mono text-slate-500 bg-slate-800 px-2 py-1 rounded">v0.9.5</span>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Dark Mode Enabler</h4>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        Force dark mode on websites that don't support it natively with intelligent color inversion.
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs text-slate-500">Last updated: 1 week ago</span>
+                        <a href="#" class="text-purple-400 hover:text-purple-300 text-sm font-semibold flex items-center">
+                            Install <i class="fas fa-external-link-alt ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Placeholder for dynamic loading or more scripts -->
+                <div class="glass border-dashed border-2 border-slate-700 flex items-center justify-center p-6 rounded-2xl opacity-60">
+                    <div class="text-center">
+                        <i class="fas fa-plus mb-3 text-slate-500"></i>
+                        <p class="text-sm">More coming soon...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contribution Guide Section -->
+        <section id="contribute" class="mb-20 glass p-8 md:p-12 rounded-3xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-blue-600 blur-[120px] opacity-10 -mr-32 -mt-32"></div>
+            
+            <div class="relative z-10 grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-3xl font-bold mb-6">Contributing to the project</h3>
+                    <p class="text-slate-400 mb-8">
+                        We welcome all types of contributions! From fixing a tiny typo in the documentation to submitting a complete new script.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span>Follow the <code class="bg-slate-800 px-2 py-0.5 rounded text-pink-400 text-sm">Standard JS</code> style guide.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span>Ensure your scripts have a valid metadata block.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span>Open a PR with a clear description of your changes.</span>
+                        </li>
+                    </ul>
+                    <a href="https://github.com/JD-YH03D/release/blob/main/CONTRIBUTING.md" class="inline-block bg-white text-slate-900 px-6 py-2 rounded-lg font-bold hover:bg-slate-200 transition">
+                        Read Full Guidelines
+                    </a>
+                </div>
+                <div class="bg-slate-950 p-6 rounded-xl border border-slate-800 shadow-2xl font-mono text-xs">
+                    <div class="flex space-x-2 mb-4">
+                        <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                        <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                        <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                    </div>
+                    <p class="text-blue-400"># To contribute:</p>
+                    <p class="text-slate-300 mt-2">1. git clone https://github.com/JD-YH03D/release.git</p>
+                    <p class="text-slate-300">2. git checkout -b feature-new-script</p>
+                    <p class="text-slate-300">3. code .</p>
+                    <p class="text-slate-300">4. git commit -m "Add new script"</p>
+                    <p class="text-slate-300">5. git push origin feature-new-script</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-12 bg-slate-950/50">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <p class="font-bold text-lg mb-2">JD-YH03D</p>
+                <p class="text-slate-500 text-sm">© 2024 Release Repo. Licensed under MIT.</p>
+            </div>
+            <div class="flex space-x-6 text-xl">
+                <a href="https://github.com/JD-YH03D" class="text-slate-500 hover:text-white transition"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-slate-500 hover:text-white transition"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="text-slate-500 hover:text-white transition"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
