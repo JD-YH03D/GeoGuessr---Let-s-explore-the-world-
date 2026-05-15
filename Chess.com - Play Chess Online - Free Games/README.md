@@ -1,8 +1,8 @@
 # 🏆 Bintang Toba Pro - Chess.com Assistant
 
-**Version:** 1.2.0  
+**Version:** 1.0.0  
 **License:** GPL-3.0-only  
-**Author:** Delta-Polder-Indonesia  
+**Author:** JD-YH03D  
 **Platform:** Chess.com (via Tampermonkey/Violentmonkey)
 
 ---
@@ -293,7 +293,6 @@ See [LICENSE](LICENSE) for more information.
 |---------|------|
 | **GitHub Issues** | [Report Bug / Request Feature](https://github.com/Delta-Polder-Indonesia/Egine-chess-tempermonkey-pro/issues) |
 | **GreasyFork** | [Script Discussion](https://greasyfork.org/scripts/xxxxxx) |
-| **Email** | delta-polder-indonesia@example.com |
 
 ---
 
@@ -311,7 +310,7 @@ See [LICENSE](LICENSE) for more information.
 
 ## 📝 Changelog
 
-### v1.2.0 (Current)
+### v1.0.0 (Current)
 - ✅ Fixed engine lock issue (_goLock immediate release)
 - ✅ Opening book cache cleared on new game
 - ✅ Timeout IDs auto-trimmed (memory optimization)
@@ -339,4 +338,4 @@ See [LICENSE](LICENSE) for more information.
 
 ---
 
-**Made with ❤️ by Delta-Polder-Indonesia**
+**Made with ❤️ by JD-YH03D**
