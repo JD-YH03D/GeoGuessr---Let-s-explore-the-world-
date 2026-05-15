@@ -10,7 +10,7 @@ This repository contains high-quality UserScripts (Tampermonkey/Greasemonkey) th
 
 | Script Name | Description | Installation |
 | ----------- | ----------- | ------------ |
-| *Script Name* | *Brief description of what the script does.* | [Install](https://greasyfork.org/scripts/...) |
+| GeoGuessr - Let's explore the world! | version1.7.1-release.js | [Install](https://raw.githubusercontent.com/JD-YH03D/release/refs/heads/main/GeoGuessr%20-%20Let's%20explore%20the%20world!/version1.7.1-release.js) |
 
 ## 🛠 Installation
 
